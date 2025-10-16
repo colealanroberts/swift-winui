@@ -16,7 +16,7 @@ Due to SPM limitations and the current state of swift-winrt, not all APIs can be
 ### SDK Versions
 
 1. Windows SDK: `10.0.18362.0`
-2. Windows App SDK: `1.5-preview1`
+2. Windows App SDK: `1.7.250909003`
 
 ## Project Configuration
 The bindings are generated from WinMD files, found in NuGet packages on Nuget.org. There are two key files which drive this:
@@ -37,4 +37,4 @@ Please file any issues you have with this repository on https://github.com/thebr
 
 ## Using WinUI
 
-In order to use WinUI, you need to download the Windows App SDK from here: https://aka.ms/windowsappsdk/1.5/1.5.240205001-preview1/windowsappruntimeinstall-x64.exe
+In order to use WinUI, you need to download the Windows App SDK from here: https://aka.ms/windowsappsdk/1.7/1.7.250909003/windowsappruntimeinstall-x64.exe
