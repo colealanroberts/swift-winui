@@ -55,8 +55,9 @@ open class SwiftApplication: Application, IXamlMetadataProvider {
     }()
 
     private static func defaultRunLoop(_ queue: DispatcherQueue) -> Int32 {
+        // The below run loop is taken mostly from https://github.com/compnerd/swift-win32/blob/d34ff1b8b3f15cfdf2cb71109a3c313001122a54/Sources/SwiftWin32/App%20and%20Environment/ApplicationMain.swift#L183
+        // with some tweaks for WinUI
         var msg: MSG = MSG()
-       
         while true {
 
             // Process all messages in thread's message queue; for GUI applications UI
