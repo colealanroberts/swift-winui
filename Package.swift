@@ -8,10 +8,10 @@ let package = Package(
         .library(name: "WinUI", type: .dynamic, targets: ["WinUI"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/thebrowsercompany/swift-cwinrt", branch: "main"),
-        .package(url: "https://github.com/thebrowsercompany/swift-uwp", branch: "main"),
-        .package(url: "https://github.com/thebrowsercompany/swift-windowsappsdk", branch: "main"),
-        .package(url: "https://github.com/thebrowsercompany/swift-windowsfoundation", branch: "main"),
+        .package(path: "../swift-cwinrt"),
+        .package(path: "../swift-uwp"),
+        .package(path: "../swift-windowsfoundation"),
+        .package(path: "../swift-windowsappsdk"),
     ],
     targets: [
         .target(
