@@ -93,7 +93,20 @@
     "Microsoft.UI.Xaml.Shapes.Rectangle",
     "Microsoft.UI.Xaml.Window",
     "Microsoft.UI.Xaml.XamlTypeInfo.XamlControlsXamlMetaDataProvider",
-    "Microsoft.UI.Xaml.Controls.NavigationView"
+    "Microsoft.UI.Xaml.Controls.NavigationView",
+    "Microsoft.Windows.AppNotifications.AppNotification",
+    "Microsoft.Windows.AppNotifications.AppNotificationActivatedEventArgs",
+    "Microsoft.Windows.AppNotifications.AppNotificationBuilder",
+    "Microsoft.Windows.AppNotifications.AppNotificationButton",
+    "Microsoft.Windows.AppNotifications.AppNotificationComboBox",
+    "Microsoft.Windows.AppNotifications.AppNotificationImageCrop",
+    "Microsoft.Windows.AppNotifications.AppNotificationManager",
+    "Microsoft.Windows.AppNotifications.AppNotificationPriority",
+    "Microsoft.Windows.AppNotifications.AppNotificationProgressData",
+    "Microsoft.Windows.AppNotifications.AppNotificationProgressResult",
+    "Microsoft.Windows.AppNotifications.AppNotificationSetting",
+    "Microsoft.Windows.AppNotifications.AppNotificationSoundEvent",
+    "Microsoft.Windows.AppNotifications.AppNotificationTextProperties"
   ],
   "exclude": [
     "Microsoft.UI.Xaml.Media.Imaging.XamlRenderingBackgroundTask",
